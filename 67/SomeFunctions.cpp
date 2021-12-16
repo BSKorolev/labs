@@ -58,7 +58,6 @@ namespace mt
             if (mt::isPrime(matrix[i][0]))
             {
                 return true;
-                v += 1;
             }
         return false;
     }
