@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+using namespace mt;
 int main()
 {
     int n, m;
