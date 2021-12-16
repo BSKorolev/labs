@@ -55,7 +55,7 @@ namespace mt
     {
 
         for (int i = 0; i < n; i++)
-            if (std::isPrime(matrix[i][0]))
+            if (mt::isPrime(matrix[i][0]))
             {
                 return true;
                 v += 1;
@@ -69,11 +69,11 @@ namespace mt
 
             for (int i = 0; i < n; i++)
             {
-                if (ConsistsPrime)
+                if (mt::ConsistsPrime)
                     v += 1;
                 for (int k = i + 1; k < m; k++)
                 {
-                    if (ConsistsPrime)
+                    if (mt::ConsistsPrime)
                         d += 1;
                     if (v < d)
                     {
