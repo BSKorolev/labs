@@ -2,7 +2,7 @@
 #include <math.h>
 #define N 50
 #define M 50
-namespace std
+namespace mt
 {
 
 	void Read(int& n, int& m, int matrix[N][M]);
