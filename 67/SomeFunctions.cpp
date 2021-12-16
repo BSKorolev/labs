@@ -6,7 +6,7 @@
 #define N 50
 #define M 50
 
-namespace std
+namespace mt
 
 {
     int s = 0;
