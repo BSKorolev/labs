@@ -10,8 +10,8 @@ int main()
 {
     int n;
     int sum[N], umn[N];
-    int* mas = new int[n];
     cin >> n;
+    int* mas = new int[n];
     for (int i = 0; i < n; i++)
     {
         cin >> mas[i];
