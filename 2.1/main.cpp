@@ -58,9 +58,8 @@ int main()
         S[i] = eng[a];
     }
     std::cout << S << std::endl;
-    sortS(S, vowels);
-    std::cout << S << std::endl;
     Timer t;
     sortS(S,vowels);
+    std::cout << S << std::endl;
     std::cout << "Time elapsed : " << t.elapsed() << std::endl;
 }
