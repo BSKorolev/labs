@@ -50,7 +50,6 @@ int ListSearch(T_List* head, int& k)
         }
         p = p->next;
     }
-    return -1;
 }
 int main()
 {
