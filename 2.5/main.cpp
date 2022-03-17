@@ -115,7 +115,6 @@ void Delete(int data, Elem*& root)
 }
 int main()
 {
-    int a;
     Elem* root = nullptr;
     std::ifstream in("input.txt");
     char symbol;
