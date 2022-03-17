@@ -33,6 +33,17 @@ void ADD(T_List* head, int age)
     p->next = head->next;
     head->next = p;
 }
+void Clear(T_List* head)
+{
+	T_List* tmp;
+	T_List* p = head->next;
+	while (p != nullptr)
+	{
+		tmp = p;
+		p = p->next;
+		delete tmp;
+	}
+}
 int Search(int k,int n, int mas[N])
 {
         for (int i = 0; i < n; i++)
@@ -71,6 +82,7 @@ int main()
     Timer t2;
     ListSearch(head, k);
     std::cout << t2.elapsed() << std::endl;
+    Clear(head);
     delete[] mas;
     delete head;
 }
